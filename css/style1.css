@@ -228,6 +228,31 @@ div.p {
 		padding: 0;
 	}
 	
+	.image1:hover {
+		transform: none;
+		border: none;
+		box-shadow: none;
+	}
+	
+	.image2:hover {
+		transform: none;
+		border: none;
+		box-shadow: none;
+	}
+	
+	.image3:hover {
+		transform: none;
+		border: none;
+		box-shadow: none;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.topnav a {
+		float: none;
+		width: 100%;
+	}
+		
 	.header img {
 		width: 50%
 		height: auto;
@@ -253,29 +278,5 @@ div.p {
 		border: none;
 		box-shadow: none;
 	}
-}
-
-@media screen and (max-width: 400px) {
-	.topnav a {
-		float: none;
-		width: 100%;
-	}
 	
-	.image1:hover {
-		transform: none;
-		border: none;
-		box-shadow: none;
-	}
-	
-	.image2:hover {
-		transform: none;
-		border: none;
-		box-shadow: none;
-	}
-	
-	.image3:hover {
-		transform: none;
-		border: none;
-		box-shadow: none;
-	}
 }
