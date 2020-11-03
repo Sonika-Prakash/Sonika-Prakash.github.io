@@ -227,11 +227,55 @@ div.p {
 		width: 100%;
 		padding: 0;
 	}
+	
+	.header img {
+		width: 50%
+		height: auto;
+		padding-right: 0;
+		margin-left: 0;
+		float: left;
+	}
+	
+	.image1:hover {
+		transform: none;
+		border: none;
+		box-shadow: none;
+	}
+	
+	.image2:hover {
+		transform: none;
+		border: none;
+		box-shadow: none;
+	}
+	
+	.image3:hover {
+		transform: none;
+		border: none;
+		box-shadow: none;
+	}
 }
 
 @media screen and (max-width: 400px) {
 	.topnav a {
 		float: none;
 		width: 100%;
+	}
+	
+	.image1:hover {
+		transform: none;
+		border: none;
+		box-shadow: none;
+	}
+	
+	.image2:hover {
+		transform: none;
+		border: none;
+		box-shadow: none;
+	}
+	
+	.image3:hover {
+		transform: none;
+		border: none;
+		box-shadow: none;
 	}
 }
